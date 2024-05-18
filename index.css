@@ -1,0 +1,90 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .content {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border: 20px;
+    height: 100vh;
+    padding-top: 20px;
+  }
+  
+  .button-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .button-list li {
+    margin-right: 30px;
+  }
+  
+  .button {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(161, 11, 11);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.8s ease;
+  }
+  
+  .button:hover {
+    background-color: rgb(255, 115, 0);
+  }
+  .home-button {
+    position: absolute;
+    top: 36px; 
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(161, 11, 11);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.8s ease;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: -860px;
+  }
+  .photo_megacars{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: -860px;
+  }
+  .photo_car{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: -860px;
+  }
+  .photo_technology{
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: -860px;
+  }
+  .text_technology {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
+.text_technology h1{
+    color: white;
+    font-size: 24px;
+}
